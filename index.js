@@ -1,16 +1,16 @@
 var BluManager = require('udoo-blu');
 var async = require('async');
 var fs = require('fs');
-
 var bluManager = new BluManager();
 
-var blus = ['b0b448c3d007', '247189cd02483'];
 
 const VIRTUAL_SENSOR_PATH = '/sensor/.../data';
+var blus = ['b0b448c3d007', '247189cd02483'];
 
-fs.writeFileSync(VIRTUAL_SENSOR_PATH, '');
 
 var virtualSensorChanged = 0;
+fs.writeFileSync(VIRTUAL_SENSOR_PATH, '');
+
 
 var tmpBlus = {};
 
