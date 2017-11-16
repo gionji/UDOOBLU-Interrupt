@@ -1,0 +1,14 @@
+{
+  "name": "udoo-blu-interrupt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "udooboard <social@udoo.org> (http://www.udoo.org/blog/)",
+  "license": "ISC",
+  "dependencies": {
+    "udoo-blu": "^1.2.0"
+  }
+}
