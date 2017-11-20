@@ -3,14 +3,11 @@ var async = require('async');
 var fs = require('fs');
 var bluManager = new BluManager();
 
-
-const VIRTUAL_SENSOR_PATH = '/sensor/.../data';
-var blus = ['b0b448c3d007', '247189cd02483'];
-
+const VIRTUAL_SENSOR_PATH = '/sensors/BLUtic/data';
+var blus = ['247189e45e05','247189e46a07','b0b448c3c087'];
 
 var virtualSensorChanged = 0;
 fs.writeFileSync(VIRTUAL_SENSOR_PATH, '');
-
 
 var tmpBlus = {};
 
